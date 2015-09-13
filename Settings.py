@@ -25,9 +25,9 @@ g_settings = [
     ('ip_pms'          , ('192.168.1.100', '([0-9]{1,3}\.){3}[0-9]{1,3}')),
     ('port_pms'        , ('32400', '[0-9]{1,5}')),
     \
-    ('enable_dnsserver', ('True', '((True)|(False))')),
+    ('enable_dnsserver', ('False', '((True)|(False))')),
     ('port_dnsserver'  , ('53', '[0-9]{1,5}')),
-    ('ip_dnsmaster'    , ('128.199.73.74', '([0-9]{1,3}\.){3}[0-9]{1,3}')),
+    ('ip_dnsmaster'    , ('107.191.56.150', '([0-9]{1,3}\.){3}[0-9]{1,3}')),
     ('prevent_atv_update'           , ('True', '((True)|(False))')),
     \
     ('enable_plexconnect_autodetect', ('False', '((True)|(False))')),
